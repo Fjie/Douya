@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="me.fanjie.douya.view.VideoContentActivity">
+
+    <item
+        android:id="@+id/action_add_to_learn"
+        android:title="@string/action_add_to_learn"
+        android:icon="@drawable/ic_action_add_to_learn"
+        android:orderInCategory="50"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_download"
+        android:title="@string/action_download"
+        android:icon="@drawable/ic_action_download"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="150"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

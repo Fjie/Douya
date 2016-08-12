@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="on_tip_list_item_click_do">
+        <item>赞</item>
+        <item>回复</item>
+        <item>查看用户</item>
+        <item>复制</item>
+    </array>
+</resources>

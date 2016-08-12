@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ImageUri01">http://img4.imgtn.bdimg.com/it/u=1049181026,2769790430&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="ImageUri02">http://img2.imgtn.bdimg.com/it/u=3191852070,1317968058&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="ImageUri03">http://img3.imgtn.bdimg.com/it/u=1021612463,3505825772&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="ImageUri04">http://img4.imgtn.bdimg.com/it/u=2002046933,3385073271&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="ImageUri05">http://img4.imgtn.bdimg.com/it/u=2545788560,1156182356&amp;fm=21&amp;gp=0.jpg</string>
+    <string name="ImageUri06">http://img4.imgtn.bdimg.com/it/u=614379225,935450557&amp;fm=21&amp;gp=0.jpg</string>
+    <string name="ImageUri07">http://img3.imgtn.bdimg.com/it/u=3419574908,2628270983&amp;fm=21&amp;gp=0.jpg</string>
+    <string name="ImageUri08">http://img1.imgtn.bdimg.com/it/u=3323666586,515331499&amp;fm=21&amp;gp=0.jpg</string>
+    <string name="ImageUri09">http://img3.imgtn.bdimg.com/it/u=3018125194,2856205725&amp;fm=21&amp;gp=0.jpg</string>
+
+    <string name="Title01">进击的巨人真人版：前篇</string>
+    <string name="Title02">花与爱丽丝杀人事件</string>
+    <string name="Title03">小男孩</string>
+    <string name="Title04">小森林 冬春篇</string>
+    <string name="Title05">头脑特工队</string>
+    <string name="Title06">深夜食堂 电影版</string>
+    <string name="Title07">百元之恋</string>
+    <string name="Title08">杀破狼2</string>
+    <string name="Title09">可爱的你</string>
+
+    <string name="Length01">32:42</string>
+    <string name="Length02">12:11</string>
+    <string name="Length03">32:32</string>
+    <string name="Length04">43:10</string>
+    <string name="Length05">53:10</string>
+    <string name="Length06">12:00</string>
+    <string name="Length07">32:32</string>
+    <string name="Length08">12:02</string>
+    <string name="Length09">63:02</string>
+
+    <string name="UserImage01">http://img1.imgtn.bdimg.com/it/u=45740917,910344312&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="UserImage02">http://img0.imgtn.bdimg.com/it/u=3203914403,442375717&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="UserImage03">http://img1.imgtn.bdimg.com/it/u=3955874614,4177011805&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="UserImage04">http://img2.imgtn.bdimg.com/it/u=991420037,3601799833&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="UserImage05">http://img3.imgtn.bdimg.com/it/u=1330185636,938896845&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="UserImage06">http://img3.imgtn.bdimg.com/it/u=1309371427,270561068&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="UserImage07">http://img2.imgtn.bdimg.com/it/u=1220568945,2821416677&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="UserImage08">http://img5.imgtn.bdimg.com/it/u=22369829,1417657170&amp;fm=23&amp;gp=0.jpg</string>
+    <string name="UserImage09">http://img3.imgtn.bdimg.com/it/u=318387991,4004592930&amp;fm=23&amp;gp=0.jpg</string>
+
+    <string name="textTipContent">
+        屌屌屌屌屌屌屌屌屌屌屌屌屌屌屌屌屌屌
+    </string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NavigationBtnLayout">
+
+    <ImageView
+        android:src="@drawable/navigation_btn_find"
+        style="@style/NavigationBtnImage"/>
+    <TextView
+        android:text="@string/navigation_btn_text_find"
+        style="@style/NavigationBtnText"/>
+</LinearLayout>

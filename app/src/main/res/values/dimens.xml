@@ -1,0 +1,36 @@
+<resources>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <dimen name="navagation_layout_margin_top">1dp</dimen>
+    <dimen name="navigation_btn_image_width">25dp</dimen>
+    <dimen name="navigation_btn_image_margin_top">5dp</dimen>
+
+    <dimen name="function_btn_layout_margin_botton">2dp</dimen>
+    <dimen name="function_btn_layout_min_height">55dp</dimen>
+    <dimen name="function_btn_layout_padding_horizontal">10dp</dimen>
+    <dimen name="function_btn_image_width">35dp</dimen>
+    <dimen name="function_btn_image_margin_horizontal">20dp</dimen>
+    <dimen name="function_btn_content_text_max_width">280dp</dimen>
+    <dimen name="function_panel_split_bar_height">20dp</dimen>
+
+    <dimen name="title_text_size">18sp</dimen>
+
+    <dimen name="user_name_text_margin_bottom">5dp</dimen>
+    <dimen name="user_big_image_width">60dp</dimen>
+    <dimen name="user_big_image_margin">10dp</dimen>
+    <dimen name="user_big_image_margin_horizontal">15dp</dimen>
+    <dimen name="user_small_image_width">40dp</dimen>
+    <dimen name="user_small_image_margin_horizontal">10dp</dimen>
+
+    <dimen name="video_image_width">120dp</dimen>
+    <dimen name="video_image_height">90dp</dimen>
+    <dimen name="video_image_margin_horizontal">15dp</dimen>
+    <dimen name="video_list_item_padding">10dp</dimen>
+    <dimen name="video_player_layout_height">213dp</dimen>
+
+    <dimen name="tip_list_item_padding">8dp</dimen>
+    <dimen name="tip_content_text_margin_right">10dp</dimen>
+
+    <dimen name="user_list_item_padding">@dimen/tip_list_item_padding</dimen>
+</resources>

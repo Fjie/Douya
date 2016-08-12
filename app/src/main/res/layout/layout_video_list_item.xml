@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/VideoListItemLayout">
+
+    <ImageView
+        android:src="@drawable/loading"
+        style="@style/VideoImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ivVideoImage" />
+
+    <TextView
+        style="@style/TitleText"
+        android:id="@+id/tvVideoTitle"
+        android:layout_alignTop="@+id/ivVideoImage"
+        android:layout_toRightOf="@+id/ivVideoImage"
+        android:layout_toEndOf="@+id/ivVideoImage" />
+
+    <TextView
+        style="@style/ListItemTagText"
+        android:id="@+id/tvPlayCount"
+        android:layout_alignBottom="@+id/ivVideoImage"
+        android:layout_alignLeft="@+id/tvVideoTitle"
+        android:layout_alignStart="@+id/tvVideoTitle" />
+
+    <TextView
+        style="@style/ListItemTagText"
+        android:id="@+id/tvVideoLength"
+        android:layout_alignBottom="@+id/tvPlayCount"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

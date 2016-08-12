@@ -1,0 +1,156 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- 按钮布局样式-->
+    <style name="BtnLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 导航按钮布局样式-->
+    <style name="NavigationBtnLayout" parent="BtnLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <!-- 功能按钮布局样式-->
+    <style name="FunctionBtnLayout" parent="BtnLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_marginBottom">@dimen/function_btn_layout_margin_botton</item>
+        <item name="android:paddingRight">@dimen/function_btn_layout_padding_horizontal</item>
+        <item name="android:paddingLeft">@dimen/function_btn_layout_padding_horizontal</item>
+        <item name="android:background">@drawable/function_btn_and_list_item_layout_background</item>
+        <item name="android:minHeight">@dimen/function_btn_layout_min_height</item>
+    </style>
+    <!-- 列表项布局样式-->
+    <style name="ListItemLayout" parent="BtnLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/function_btn_and_list_item_layout_background</item>
+    </style>
+    <!-- 视频列表项布局样式-->
+    <style name="VideoListItemLayout" parent="ListItemLayout">
+        <item name="android:padding">@dimen/video_list_item_padding</item>
+    </style>
+    <!-- 评论列表项布局样式-->
+    <style name="TipListItemLayout" parent="ListItemLayout">
+        <item name="android:padding">@dimen/tip_list_item_padding</item>
+    </style>
+    <!-- 活动列表项布局样式-->
+    <style name="PartyListItemLayout" parent="ListItemLayout">
+
+    </style>
+    <!-- 用户列表项布局样式-->
+    <style name="UserListItemLayout" parent="ListItemLayout">
+        <item name="android:padding">@dimen/user_list_item_padding</item>
+    </style>
+
+
+
+    <!-- 文本样式-->
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 标题文本样式-->
+    <style name="TitleText" parent="Text">
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:maxLength">15</item>
+    </style>
+    <!-- 功能按钮标题文本样式-->
+    <style name="FunctionBtnTitleText" parent="TitleText">
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- 用户标题文本样式-->
+    <style name="UserNameText" parent="TitleText">
+        <item name="android:layout_marginBottom">@dimen/user_name_text_margin_bottom</item>
+    </style>
+
+    <!-- 内容文本样式-->
+    <style name="ContentText" parent="Text">
+
+    </style>
+    <!-- 功能按钮内容文本样式-->
+    <style name="FunctionBtnContentText" parent="ContentText">
+        <item name="android:maxWidth">@dimen/function_btn_content_text_max_width</item>
+    </style>
+    <!-- 导航标题文本-->
+    <style name="NavigationBtnText" parent="Text">
+        <item name="android:textColor">@color/effect_navigation_btn_text_color</item>
+    </style>
+    <!-- 列表项标识文本-->
+    <style name="ListItemTagText" parent="Text">
+
+    </style>
+    <!-- 评论列表内容文本-->
+    <style name="TipContentText" parent="ContentText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:maxLength">120</item>
+        <item name="android:layout_marginRight">@dimen/tip_content_text_margin_right</item>
+    </style>
+    <!-- 用户列表内容文本-->
+    <style name="UserResumeText" parent="ContentText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:maxLength">25</item>
+        <item name="android:layout_marginRight">@dimen/tip_content_text_margin_right</item>
+    </style>
+    <!-- 功能面板分割条-->
+    <style name="FunctionPanelSplitBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/function_panel_split_bar_height</item>
+        <item name="android:background">@color/function_panel_split_bar_background</item>
+    </style>
+
+
+
+    <!-- 按钮图标样式-->
+    <style name="BtnImage">
+
+    </style>
+    <!-- 导航按钮图标样式-->
+    <style name="NavigationBtnImage" parent="BtnImage">
+        <item name="android:layout_marginTop">@dimen/navigation_btn_image_margin_top</item>
+        <item name="android:layout_width">@dimen/navigation_btn_image_width</item>
+        <item name="android:layout_height">@dimen/navigation_btn_image_width</item>
+    </style>
+    <!-- 功能按钮图标样式-->
+    <style name="FunctionBtnImage" parent="BtnImage">
+        <item name="android:layout_width">@dimen/function_btn_image_width</item>
+        <item name="android:layout_height">@dimen/function_btn_image_width</item>
+        <item name="android:layout_marginLeft">@dimen/function_btn_image_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/function_btn_image_margin_horizontal</item>
+    </style>
+    <!-- 图片样式-->
+    <style name="Image">
+
+    </style>
+    <!-- 用户大头像-->
+    <style name="UserBigImage" parent="Image">
+        <item name="android:layout_width">@dimen/user_big_image_width</item>
+        <item name="android:layout_height">@dimen/user_big_image_width</item>
+        <item name="android:layout_margin">@dimen/user_big_image_margin</item>
+        <item name="android:layout_marginLeft">@dimen/user_big_image_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/user_big_image_margin_horizontal</item>
+    </style>
+    <!-- 用户小头像-->
+    <style name="UserSmallImage" parent="Image">
+        <item name="android:layout_width">@dimen/user_small_image_width</item>
+        <item name="android:layout_height">@dimen/user_small_image_width</item>
+        <item name="android:layout_marginLeft">@dimen/user_small_image_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/user_small_image_margin_horizontal</item>
+    </style>
+
+    <!-- 视频图片-->
+    <style name="VideoImage" parent="Image">
+        <item name="android:layout_width">@dimen/video_image_width</item>
+        <item name="android:layout_height">@dimen/video_image_height</item>
+        <item name="android:layout_marginLeft">@dimen/video_image_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/video_image_margin_horizontal</item>
+    </style>
+
+</resources>

@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.fanjie.douya.view.fragment.MineFragment"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_function_panel_split_bar"/>
+
+    <LinearLayout
+        android:id="@+id/btnUserPanel"
+        style="@style/FunctionBtnLayout">
+
+        <ImageView
+            android:id="@+id/ivUserImage"
+            style="@style/UserBigImage"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tvUserName"
+                style="@style/UserNameText"/>
+            <TextView
+                android:id="@+id/tvUserResume"
+                style="@style/ContentText"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_function_panel_split_bar"/>
+
+    <LinearLayout
+        android:id="@+id/btnUserVideos"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_mine"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="@string/title_activity_user_videos"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+    <include layout="@layout/layout_function_panel_split_bar"/>
+    <LinearLayout
+        android:id="@+id/btnLearnNowVideos"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_mine"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="@string/title_activity_learn_now_videos"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btnUserPartys"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_mine"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="@string/title_activity_user_partys"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btnUserInterests"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_mine"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="@string/title_activity_user_interest"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+    <include layout="@layout/layout_function_panel_split_bar"/>
+    <LinearLayout
+        android:id="@+id/btnAddFollow"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_mine"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="@string/title_activity_add_follow"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+
+</LinearLayout>

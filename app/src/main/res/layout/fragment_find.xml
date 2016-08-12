@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.fanjie.douya.view.fragment.FindFragment"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_function_panel_split_bar"/>
+
+    <LinearLayout
+        android:id="@+id/btnHotVideos"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_find"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="@string/title_activity_hot_videos"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btnLocalVideos"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_find"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="@string/title_activity_local_videos"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+    <include layout="@layout/layout_function_panel_split_bar"/>
+    <LinearLayout
+        android:id="@+id/btnHotInterests"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_find"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="@string/title_activity_hot_interest"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+    <include layout="@layout/layout_function_panel_split_bar"/>
+    <LinearLayout
+        android:id="@+id/btnPleaseWaitUs"
+        style="@style/FunctionBtnLayout">
+        <ImageView
+            android:src="@drawable/navigation_btn_icon_find"
+            style="@style/FunctionBtnImage"/>
+        <TextView
+            android:text="敬请期待"
+            style="@style/FunctionBtnTitleText"/>
+    </LinearLayout>
+
+</LinearLayout>
